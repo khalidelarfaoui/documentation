@@ -1,27 +1,12 @@
-(in-code-documentation)=
-
-# In-code documentation
-
-```{questions}
-- What can I do to make my code more easily understandable?
-- What information should go into comments?
-- What are docstrings and what information should go into docstrings?
-```
-
-In this episode we will learn how to write good documentation inside your code.
 
 
-## Exercise - Writing good comments
+# Griesser Injection
 
-````{exercise} In-code-1: Comments
-  Let's take a look at two example comments (comments in Python start with `#`):
+## namespace Modules\Crons\Services\Griesser\FileProcessingService.php;
 
-  **Comment A**
-  ```python
-  # now we check if temperature is larger than -50
-  if temperature > -50:
-      print("ERROR: temperature is too low")
-  ```
+methode importDataFromFtp()
+
+This method is responsible for importing data from a remote FTP server to the local database. It connects to the FTP server, retrieves files matching predefined formats, validates the file structure, and inserts the data into corresponding database tables.
 
   **Comment B**
   ```python
